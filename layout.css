@@ -1,0 +1,117 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    background-color: #272932;
+}
+body{
+    max-width: 1298px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.o-nas h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.o-nas__layout__photo{
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.o-nas__layout__info{
+    display: flex;
+    align-items: center;
+}
+.o-nas__layout__info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.o-nas__layout__info div a{
+    max-width: 60%;
+    padding-right: 5%;
+    text-align: right;
+}
+.o-nas__layout__rychlost{
+    display: flex;
+    align-items: center;
+}
+.o-nas__layout__rychlost div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.o-nas__layout__rychlost div a{
+    max-width: 60%;
+    padding-left: 5%;
+}
+.o-nas__layout__poloha{
+    display: flex;
+    align-items: center;
+}
+.o-nas__layout__poloha div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.o-nas__layout__poloha div a{
+    max-width: 60%;
+    padding-right: 5%;
+    text-align: right;
+}
+.o-nas__layout__oteviraci-doba h3{
+    justify-content: center;
+    display: flex;
+}
+.o-nas__layout__oteviraci-doba{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.o-nas__layout__oteviraci-doba__tabulka{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    line-height: 30px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.o-nas__layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 263px 263px 263px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . info info info photo photo photo photo photo"
+      "photo2-0 photo2-0 photo2-0 rychlost rychlost rychlost photo photo photo photo photo"
+      "photo2-0 photo2-0 photo2-0 poloha poloha poloha Otevírací-doba Otevírací-doba Otevírací-doba Otevírací-doba Otevírací-doba";
+  }
+  
+  .o-nas__layout__info { grid-area: info; }
+  
+  .o-nas__layout__photo { grid-area: photo; }
+  
+  .o-nas__layout__photo2-0 { grid-area: photo2-0; }
+  
+  .o-nas__layout__poloha { grid-area: poloha; }
+  
+  .o-nas__layout__oteviraci-doba { grid-area: Otevírací-doba; }
+  
+  .o-nas__layout__rychlost { grid-area: rychlost; }
+  
