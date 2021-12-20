@@ -3,13 +3,116 @@ html{
     color: azure;
     background-color: #272932;
 }
-body{
+.main{
     max-width: 1298px;
     margin: auto;
+}
+body{
+    margin: 0;
 }
 img{
     width: 100%;
 }
+.front-page{
+    background-image: url("./Diadni\ RDY\ NA\ WEB/DSC04713.jpg");
+    background-position: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1298px;
+    margin: auto;
+    padding-top: 2em;
+}
+.front-page__fotky{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.front-page__fotky .obr1{
+    max-width: 200px;
+    height: 100%;
+}
+.front-page__fotky .obr2{
+    max-width: 250px;
+    padding-left: 10%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.nav__item{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #FFF6EC;
+    border: solid 5px #272932;
+    text-decoration: none;
+    color: #272932;
+    font-weight: 600;
+}
+
+
+
+.front-page__front-info{
+    margin: auto;
+    max-width: 1298px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.front-page__front-info__article-1{
+    display: flex;
+    flex-direction: row;
+}
+.front-page__front-info__article-1__span{
+    width: 72px;
+    height: 600px;
+    background-color: #272932;
+}
+.front-page__front-info__article-1__p{
+    display: flex;
+    justify-content: flex-start;
+}
+.front-page__front-info__article-1__p{
+    max-width: 500px;
+}
+.front-page__front-info__article-1__p .s{
+    font-size: 70px;
+    margin-left: -11.5%;
+    font-weight: 900;
+}
+.front-page__front-info__article-1__p .rest{
+    margin-left: 3%;
+    padding-top: 40px;
+    line-height: 40px;
+    font-size: 23px;
+    padding-left: 2%;
+    font-weight: 900;
+}
+
+
+
+.front-page__front-info__article-2{
+    display: flex;
+    justify-content: right;
+}
+.front-page__front-info__article-2 img{
+    max-width: 400px;
+}
+
+
+
+
+
+
 .o-nas h1{
     display: flex;
     justify-content: center;
@@ -80,17 +183,6 @@ img{
     line-height: 30px;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 .o-nas__layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -114,4 +206,61 @@ img{
   .o-nas__layout__oteviraci-doba { grid-area: Otevírací-doba; }
   
   .o-nas__layout__rychlost { grid-area: rychlost; }
+
+
+
+
+
+.instagram{
+    background-image: url(Diadni\ RDY\ NA\ WEB/pozadi-zelenina2.0.jpg);
+    max-width: 6000px;
+    margin-top: 2em;
+}
+.instagram__obsah__kontejner{
+    max-width: 1298px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.instagram__obsah__kontejner__article{
+    display: flex;
+    flex-direction: row;
+}
+.instagram__obsah__kontejner__article span{
+    background-color: #272932;
+    width: 72px;
+    height: 200px;
+}
+.instagram__obsah__kontejner__article__big{
+    font-size: 70px;
+    display: flex;
+    align-items: end;
+    margin-left: -60px;
+    font-weight: 900;
+}
+.instagram__obsah__kontejner__article__rest{
+    display: flex;
+    align-items: end;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 23px;
+}
+.instagram__obsah__fotky{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-end;
+}
+.instagram-media:first-child{
+    max-width: 200px;
+}
+blockquote{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
   
