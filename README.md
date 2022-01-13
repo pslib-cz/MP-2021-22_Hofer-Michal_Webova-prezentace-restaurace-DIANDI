@@ -1,2 +1,2 @@
 # MP-2021-22_Hofer-Michal_Webova-prezentace-restaurace-DIANDI
-Jelikož mi github nedovoloval nahrát XD návrh, který je přílíš veliký, nahrál jsem ho [zde](https://drive.google.com/file/d/1pu0LspadhoXV_NBx4EtjhUlDIwtK7cDt/view?usp=sharing) na google disk.
+[Zde](https://pslib-cz.github.io/MP-2021-22_Hofer-Michal_Webova-prezentace-restaurace-DIANDI/) se můžete podívat na aktuální stav webu.
