@@ -2,10 +2,19 @@ html{
     font-family: 'Montserrat', sans-serif;
     color: azure;
     background-color: #272932;
+    letter-spacing: 2px;
 }
 .main{
-    max-width: 1298px;
     margin: auto;
+    background-image: url("./Diadni\ RDY\ NA\ WEB/bg5.jpg");
+    background-size: contain;
+    background-repeat:no-repeat;
+
+}
+.galery{
+    background-image: url("./Diadni\ RDY\ NA\ WEB/bg4.jpg");
+    background-size: cover;
+    background-position-x: center;
 }
 body{
     margin: 0;
@@ -34,20 +43,22 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 .front-page__fotky .obr1{
     max-width: 200px;
     height: 100%;
 }
 .front-page__fotky .obr2{
-    max-width: 250px;
-    padding-left: 10%;
+    max-width: 400px;
     height: 100%;
 }
 .nav{
     display: flex;
     justify-content: right;
     gap: 20px;
+    flex-direction: column;
 }
 .nav__item{
     padding-left: 2em;
@@ -121,20 +132,46 @@ header{
 
 
 
-
+.o-nas{
+    max-width: 1298px;
+    margin: auto;
+}
 .o-nas h1{
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 250px;
+    z-index: 2;
+    margin-top: 40px;
+    margin-bottom: -132px;
 }
-.o-nas__layout__photo{
+.o-nas__layout__oteviraci-doba h1{
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-top: -65px;
+}
+.o-nas__layout__photo, .o-nas__layout__photo2-0{
     vertical-align: middle;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    z-index: 0;
+}
+.o-nas__layout__photo2-0{
+    z-index: 0;
+    display: none;
 }
 .o-nas__layout__info{
     display: flex;
     align-items: center;
+}
+.o-nas__layout__info a{
+    font-weight: 300;
+}
+.o-nas__layout__photo img, .o-nas__layout__photo2-0 img{
+    height: 100%;
+    width: auto;
 }
 .o-nas__layout__info div{
     display: flex;
@@ -147,6 +184,7 @@ header{
     max-width: 60%;
     padding-right: 5%;
     text-align: right;
+    font-weight: 300;
 }
 .o-nas__layout__rychlost{
     display: flex;
@@ -160,10 +198,13 @@ header{
 .o-nas__layout__rychlost div a{
     max-width: 60%;
     padding-left: 5%;
+    font-weight: 300;
+    align-self: center;
 }
 .o-nas__layout__poloha{
     display: flex;
     align-items: center;
+    margin: auto;
 }
 .o-nas__layout__poloha div{
     display: flex;
@@ -175,6 +216,7 @@ header{
     max-width: 60%;
     padding-right: 5%;
     text-align: right;
+    font-weight: 300;
 }
 .o-nas__layout__oteviraci-doba h3{
     justify-content: center;
@@ -189,8 +231,9 @@ header{
     display: flex;
     flex-direction: row;
     gap: 40%;
-    line-height: 30px;
+    line-height: 22px;
     justify-content: center;
+    letter-spacing: 7px;
 }
 .o-nas__layout {
     display: grid;
@@ -199,9 +242,9 @@ header{
     gap: 0px 10px;
     grid-auto-flow: row;
     grid-template-areas:
-      ". . . info info info photo photo photo photo photo"
-      "photo2-0 photo2-0 photo2-0 rychlost rychlost rychlost photo photo photo photo photo"
-      "photo2-0 photo2-0 photo2-0 poloha poloha poloha Otevírací-doba Otevírací-doba Otevírací-doba Otevírací-doba Otevírací-doba";
+      "info info info info info info photo photo photo photo photo"
+      "rychlost rychlost rychlost rychlost rychlost rychlost photo photo photo photo photo"
+      "poloha poloha poloha poloha poloha poloha Otevírací-doba Otevírací-doba Otevírací-doba Otevírací-doba Otevírací-doba";
   }
   
   .o-nas__layout__info { grid-area: info; }
@@ -221,7 +264,7 @@ header{
 
 
 .instagram{
-    background-image: url(Diadni\ RDY\ NA\ WEB/pozadi-zelenina2.0.jpg);
+    background-image: url(Diadni\ RDY\ NA\ WEB/zele.jpg);
     max-width: 6000px;
     margin-top: 2em;
 }
@@ -263,11 +306,13 @@ header{
     gap: 10px;
     align-items: flex-end;
 }
-.instagram-media:first-child{
-    max-width: 200px;
+.instagram-media{
+    max-width: 250px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
-.instagram-media:last-child{
-    max-width: 200px;
+.instagram__obsah{
+    margin-bottom: 0rem;
 }
 blockquote{
     margin-block-start: 0;
@@ -367,13 +412,13 @@ blockquote{
     font-weight: 900;
 }
 .Na{
-    font-size: 110px;
+    font-size: 150px;
 }
 .cem{
-    font-size: 70px;
+    font-size: 75px;
 }
 .si{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 
@@ -383,12 +428,14 @@ blockquote{
     justify-content: space-between;
     max-width: 1298px;
     margin: auto;
+    font-weight: 300;
 }
 .footer-layout h2{
     color: #F3950D;
 }
 .footer-layout__div3 svg{
     fill: white;
+    font-weight: 300;
 }
 footer{
     background-color: black;
@@ -397,8 +444,22 @@ footer{
 }
 
 @media (max-width: 1300px){
+    html{
+        letter-spacing: 1px;
+    }
+    .o-nas h1{
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+    .o-nas__layout__oteviraci-doba h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
     .nav{
         flex-direction: column;
+    }
+    .o-nas__layout__oteviraci-doba__tabulka{
+        letter-spacing: 3px;
     }
     .instagram__obsah__kontejner, .front-page__front-info, .main, header, .instagram__obsah__fotky, .galery__layout, .footer-layout {
         max-width: 950px;
@@ -406,9 +467,6 @@ footer{
     }
     .instagram__obsah__fotky{
         margin-top: 20px;
-    }
-    .instagram__obsah{
-        margin-bottom: 2rem;
     }
     .front-page__front-info__article-1__p .rest{
         max-width: 400px;
@@ -419,11 +477,17 @@ footer{
     }
 }
 @media (max-width: 900px){
+
     .header-page__span span{
         width: 50px;
         height: 10px;
         border-radius: 10%;
         background-color: black;
+}
+.main{
+    margin: auto;
+    background-image: url("./Diadni\ RDY\ NA\ WEB/bg5.jpg");
+    background-size: cover;
 }
     .header-page__span{
         display: flex;
@@ -437,28 +501,32 @@ footer{
         cursor: pointer;
         z-index: 1;
     }
+    .front-page__fotky{
+        align-items: flex-start;
+    }
     .header-page__span.active{
         transform: rotate(360deg);
     }
     .nav{
-        background-color: black;
-        padding: 2rem;
         display: none;
-        margin-left: -20%;
         z-index: 100;
+        gap: 5px;
     }
     .nav.active{
         transition: ease-in-out;
         transition-duration: 0.3s;
         display: grid;
-        margin-bottom: -300px;
     }
     .nav__item{
-        padding-left: 3em;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        padding-right: 3em;
-        transition: 0s;
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 1em;
+        transition: .5s;
+        border: solid 2px;
+    }
+    .o-nas__layout__photo2-0{
+        display: list-item;
     }
     .o-nas__layout {
         display: grid;
@@ -504,6 +572,8 @@ footer{
       }
       .front-page__front-info__article-1{
           padding-bottom: 3rem;
+          padding-left: 2rem;
+          padding-right: 2rem;
       }
       .front-page__fotky .obr1{
           max-width: 100px;
@@ -535,6 +605,9 @@ footer{
       .o-nas__layout__info div{
           max-width: 60px;
       }
+      .o-nas__layout__photo img, .o-nas__layout__photo2-0 img{
+          width: auto;
+      }
       .o-nas__layout__rychlost div a{
         position: absolute;
         padding-top: 90px;
@@ -544,15 +617,8 @@ footer{
       .o-nas__layout__rychlost div{
           max-width: 60px;
       }
-      .o-nas__layout__photo2-0{
-        display: flex;
-        align-items: center;
-        max-width: 300px;
-        margin: auto;
-      }
       .o-nas__layout__photo{
-          max-width: 300px;
-          margin: auto;
+          object-fit: fill;
       }
       .o-nas__layout__poloha div a{
           position: absolute;
@@ -605,5 +671,85 @@ footer{
     }
     .galery__layout__sekce-3__kontejner .image__title{
         transform: translateX(0);
+    }
+}
+@media (max-width: 550px){
+    .front-page__front-info__article-1__p .rest{
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
+    .o-nas h1{
+        font-size: 45px;
+    }
+    .o-nas__layout__oteviraci-doba h1{
+        font-size: 30px;
+    }
+    .o-nas__layout a{
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    .o-nas__layout__rychlost div a{
+        padding-top: 150px;
+    }
+    .o-nas__layout__oteviraci-doba__tabulka{
+        gap: 20%;
+    }
+    .front-page__front-info__article-1__span{
+        height: 220px;
+    }
+    .front-page__front-info__article-2{
+        padding-bottom: 1rem;
+    }
+    .instagram__obsah__kontejner__article__big{
+        font-size: 50px;
+    }
+    .instagram__obsah__kontejner__article__rest{
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    .front-page__front-info__article-1__span{
+        display: flex;
+        min-width: 50px;
+    }
+    .front-page__front-info__article-1__p .s{
+        margin-left: -40px;
+    }
+
+    .front-page__fotky .obr2{
+        max-width: 120px;
+    }
+    .front-page__front-info{
+        padding-top: 2rem;
+    }
+    .front-page__fotky .obr1{
+        max-width: 70px;
+    }
+    .header-page__span span{
+        width: 40px;
+        height: 5px;
+    }
+    .header-page__span{
+        margin-right: 1.5rem;
+    }
+    header{
+        padding-left: 1rem;
+    }
+    .nav.active{
+        position: absolute;
+        transition: 1s;
+    }
+    .nav__item{
+        box-shadow: #272932 20px 20px 40px;
+        z-index: 100;
+    }
+    .nav__item:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .footer-layout{
+        flex-direction: column;
+
     }
 }
