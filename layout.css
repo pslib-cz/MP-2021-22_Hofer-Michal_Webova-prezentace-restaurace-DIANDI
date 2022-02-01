@@ -6,13 +6,13 @@ html{
 }
 .main{
     margin: auto;
-    background-image: url("./Diadni\ RDY\ NA\ WEB/bg5.jpg");
+    background-image: url("./Diadni-RDY-NA-WEB/bg5.jpg");
     background-size: contain;
     background-repeat:no-repeat;
 
 }
 .galery{
-    background-image: url("./Diadni\ RDY\ NA\ WEB/bg4.jpg");
+    background-image: url("./Diadni-RDY-NA-WEB/bg5.jpg");
     background-size: cover;
     background-position-x: center;
 }
@@ -23,7 +23,7 @@ img{
     width: 100%;
 }
 .front-page{
-    background-image: url("./Diadni\ RDY\ NA\ WEB/DSC04713.jpg");
+    background-image: url("./Diadni-RDY-NA-WEB/DSC047132.0.webp");
     background-position: center;
 }
 header{
@@ -139,16 +139,18 @@ header{
 .o-nas h1{
     display: flex;
     justify-content: center;
-    font-size: 250px;
+    font-size: 200px;
     z-index: 2;
     margin-top: 40px;
-    margin-bottom: -132px;
+    margin-bottom: -105px;
+    letter-spacing: 22px;
 }
 .o-nas__layout__oteviraci-doba h1{
     font-size: 100px;
     margin-top: 40px;
     margin-bottom: 20px;
     margin-top: -65px;
+    letter-spacing: 2px;
 }
 .o-nas__layout__photo, .o-nas__layout__photo2-0{
     vertical-align: middle;
@@ -264,7 +266,7 @@ header{
 
 
 .instagram{
-    background-image: url(Diadni\ RDY\ NA\ WEB/zele.jpg);
+    background-image: url(Diadni-RDY-NA-WEB/zele.jpg);
     max-width: 6000px;
     margin-top: 2em;
 }
@@ -450,6 +452,7 @@ footer{
     .o-nas h1{
         font-size: 70px;
         margin-bottom: 0;
+        letter-spacing: 2px;
     }
     .o-nas__layout__oteviraci-doba h1{
         font-size: 40px;
@@ -486,7 +489,7 @@ footer{
 }
 .main{
     margin: auto;
-    background-image: url("./Diadni\ RDY\ NA\ WEB/bg5.jpg");
+    background-image: url("./Diadni-RDY-NA-WEB/bg5.jpg");
     background-size: cover;
 }
     .header-page__span{
@@ -598,7 +601,7 @@ footer{
       }
       .o-nas__layout__info div a{
           position: absolute;
-          padding-top: 180px;
+          padding-top: 125px;
           padding-right: 0;
           text-align: center;
       }
@@ -610,7 +613,7 @@ footer{
       }
       .o-nas__layout__rychlost div a{
         position: absolute;
-        padding-top: 90px;
+        padding-top: 125px;
         padding-left: 0;
         text-align: center;
       }
@@ -622,7 +625,7 @@ footer{
       }
       .o-nas__layout__poloha div a{
           position: absolute;
-          padding-top: 120px;
+          padding-top: 125px;
         padding-left: 0;
         text-align: center;
       }
@@ -680,7 +683,8 @@ footer{
         line-height: 25px;
     }
     .o-nas h1{
-        font-size: 45px;
+        font-size: 65px;
+        margin-bottom: 2rem;
     }
     .o-nas__layout__oteviraci-doba h1{
         font-size: 30px;
@@ -691,6 +695,9 @@ footer{
     }
     .o-nas__layout__rychlost div a{
         padding-top: 150px;
+    }
+    .o-nas__layout__info div a{
+        padding-top: 160px;
     }
     .o-nas__layout__oteviraci-doba__tabulka{
         gap: 20%;
@@ -704,10 +711,27 @@ footer{
     .instagram__obsah__kontejner__article__big{
         font-size: 50px;
     }
+    body > div > section.instagram > section > div.instagram__obsah__fotky > blockquote:nth-child(1){
+        display: none;
+    }
+    body > div > section.instagram > section > div.instagram__obsah__fotky > blockquote:nth-child(3){
+        min-width: none;
+        max-width: 300px;
+    }
+    body > div > section.instagram > section > div.instagram__obsah__fotky > blockquote:nth-child(5){
+        display: none;
+    }
     .instagram__obsah__kontejner__article__rest{
         font-size: 14px;
         letter-spacing: 0;
         line-height: 20px;
+    }
+    .instagram__obsah__kontejner__article__big{
+        margin-left: -45px;
+    }
+    .instagram__obsah__kontejner__article span{
+        width: 50px;
+        height: 150px;
     }
     .front-page__front-info__article-1__span{
         display: flex;
