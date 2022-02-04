@@ -312,6 +312,7 @@ header{
     max-width: 250px;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    max-height: 600px;
 }
 .instagram__obsah{
     margin-bottom: 0rem;
@@ -558,12 +559,7 @@ footer{
           padding-left: 2rem;
           padding-right: 2rem;
       }
-      .instagram-media:first-child{
-          display: none;
-      }
-      .instagram-media:last-of-type{
-          display: none;
-      }
+
       .front-page__front-info{
           flex-direction: column;
           padding-top: 6rem;
@@ -711,16 +707,12 @@ footer{
     .instagram__obsah__kontejner__article__big{
         font-size: 50px;
     }
-    body > div > section.instagram > section > div.instagram__obsah__fotky > blockquote:nth-child(1){
-        display: none;
-    }
+
     body > div > section.instagram > section > div.instagram__obsah__fotky > blockquote:nth-child(3){
         min-width: none;
         max-width: 300px;
     }
-    body > div > section.instagram > section > div.instagram__obsah__fotky > blockquote:nth-child(5){
-        display: none;
-    }
+
     .instagram__obsah__kontejner__article__rest{
         font-size: 14px;
         letter-spacing: 0;
