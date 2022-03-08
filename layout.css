@@ -530,7 +530,7 @@ footer{
         border: solid 2px;
     }
     .o-nas__layout__photo2-0{
-        display: list-item;
+        display: flex;
     }
     .o-nas__layout {
         display: grid;
