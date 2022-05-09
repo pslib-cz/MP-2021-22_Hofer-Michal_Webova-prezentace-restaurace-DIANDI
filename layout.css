@@ -8,7 +8,7 @@ html{
     margin: auto;
     background-image: url("./Diadni-RDY-NA-WEB/bg5.jpg");
     background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 
 }
 .galery{
@@ -25,6 +25,9 @@ img{
 .front-page{
     background-image: url("./Diadni-RDY-NA-WEB/DSC047132.0.webp");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 header{
     display: flex;
@@ -141,7 +144,7 @@ header{
     justify-content: center;
     font-size: 200px;
     z-index: 2;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: -105px;
     letter-spacing: 22px;
 }
@@ -267,6 +270,8 @@ header{
 
 .instagram{
     background-image: url(Diadni-RDY-NA-WEB/zele.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 6000px;
     margin-top: 2em;
 }
@@ -330,7 +335,6 @@ blockquote{
     flex-direction: row;
     max-width: 1298px;
     margin: auto;
-    margin-top: 2rem;
     justify-content: space-between;
 }
 .galery__layout__sekce-1{
