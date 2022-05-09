@@ -111,10 +111,11 @@ header{
     font-size: 70px;
     margin-left: -11.5%;
     font-weight: 900;
+    margin-top: 10px;
 }
 .front-page__front-info__article-1__p .rest{
     margin-left: 3%;
-    padding-top: 40px;
+    padding-top: 20px;
     line-height: 40px;
     font-size: 23px;
     padding-left: 2%;
@@ -171,7 +172,7 @@ header{
     display: flex;
     align-items: center;
 }
-.o-nas__layout__info a{
+.o-nas__layout__info p{
     font-weight: 300;
 }
 .o-nas__layout__photo img, .o-nas__layout__photo2-0 img{
@@ -185,7 +186,7 @@ header{
     justify-content: center;
 }
 
-.o-nas__layout__info div a{
+.o-nas__layout__info div p{
     max-width: 60%;
     padding-right: 5%;
     text-align: right;
@@ -200,7 +201,7 @@ header{
     flex-direction: row;
     justify-content: center;
 }
-.o-nas__layout__rychlost div a{
+.o-nas__layout__rychlost div p{
     max-width: 60%;
     padding-left: 5%;
     font-weight: 300;
@@ -217,7 +218,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.o-nas__layout__poloha div a{
+.o-nas__layout__poloha div p{
     max-width: 60%;
     padding-right: 5%;
     text-align: right;
@@ -417,6 +418,7 @@ blockquote{
 }
 .galery__layout__sekce-2 p{
     font-weight: 900;
+    margin: 0;
 }
 .Na{
     font-size: 150px;
@@ -599,7 +601,7 @@ footer{
       .front-page__front-info__article-2{
           padding-bottom: 2rem;
       }
-      .o-nas__layout__info div a{
+      .o-nas__layout__info div p{
           position: absolute;
           padding-top: 125px;
           padding-right: 0;
@@ -611,7 +613,7 @@ footer{
       .o-nas__layout__photo img, .o-nas__layout__photo2-0 img{
           width: auto;
       }
-      .o-nas__layout__rychlost div a{
+      .o-nas__layout__rychlost div p{
         position: absolute;
         padding-top: 125px;
         padding-left: 0;
@@ -623,7 +625,7 @@ footer{
       .o-nas__layout__photo{
           object-fit: fill;
       }
-      .o-nas__layout__poloha div a{
+      .o-nas__layout__poloha div p{
           position: absolute;
           padding-top: 125px;
         padding-left: 0;
@@ -689,14 +691,14 @@ footer{
     .o-nas__layout__oteviraci-doba h1{
         font-size: 30px;
     }
-    .o-nas__layout a{
+    .o-nas__layout p{
         font-size: 14px;
         letter-spacing: normal;
     }
-    .o-nas__layout__rychlost div a{
+    .o-nas__layout__rychlost div p{
         padding-top: 150px;
     }
-    .o-nas__layout__info div a{
+    .o-nas__layout__info div p{
         padding-top: 160px;
     }
     .o-nas__layout__oteviraci-doba__tabulka{
