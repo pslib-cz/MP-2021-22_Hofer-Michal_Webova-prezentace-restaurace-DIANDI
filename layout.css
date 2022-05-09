@@ -149,7 +149,7 @@ header{
     margin-bottom: -105px;
     letter-spacing: 22px;
 }
-.o-nas__layout__oteviraci-doba h1{
+.o-nas__layout__oteviraci-doba h2{
     font-size: 100px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -461,7 +461,7 @@ footer{
         margin-bottom: 0;
         letter-spacing: 2px;
     }
-    .o-nas__layout__oteviraci-doba h1{
+    .o-nas__layout__oteviraci-doba h2{
         font-size: 40px;
         margin-bottom: 10px;
     }
@@ -688,7 +688,7 @@ footer{
         font-size: 65px;
         margin-bottom: 2rem;
     }
-    .o-nas__layout__oteviraci-doba h1{
+    .o-nas__layout__oteviraci-doba h2{
         font-size: 30px;
     }
     .o-nas__layout p{
