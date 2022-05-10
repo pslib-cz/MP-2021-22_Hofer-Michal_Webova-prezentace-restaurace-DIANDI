@@ -80,7 +80,7 @@
                                         <g id="Group_16" data-name="Group 16" transform="translate(-987 -887)">
                                           <g id="Group_28" data-name="Group 28">
                                             <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(987 887)">
-                                              <rect id="Rectangle_13" data-name="Rectangle 13" width="91" height="91" rx="10" fill="#f3950d"/>
+                                              <rect id="Rectangle_13" width="91" height="91" rx="10" fill="#f3950d"/>
                                             </g>
                                             <path id="foodtray" d="M54.991,35.478H1.774a1.7,1.7,0,0,1-1.247-.527A1.7,1.7,0,0,1,0,33.7,25.979,25.979,0,0,1,6.459,15.937,26.507,26.507,0,0,1,23.061,7.1a1.7,1.7,0,0,0,1.247-.527,1.74,1.74,0,0,0,0-2.494,1.7,1.7,0,0,0-1.247-.527,1.7,1.7,0,0,1-1.247-.527,1.7,1.7,0,0,1-.527-1.247A1.7,1.7,0,0,1,21.813.527,1.7,1.7,0,0,1,23.061,0H33.7a1.7,1.7,0,0,1,1.247.527,1.7,1.7,0,0,1,.527,1.247,1.7,1.7,0,0,1-.527,1.247,1.7,1.7,0,0,1-1.247.527,1.7,1.7,0,0,0-1.247.527,1.74,1.74,0,0,0,0,2.494A1.7,1.7,0,0,0,33.7,7.1a26.511,26.511,0,0,1,16.6,8.841A25.985,25.985,0,0,1,56.765,33.7a1.8,1.8,0,0,1-1.774,1.774ZM1.774,39.026H54.991a1.774,1.774,0,0,1,0,3.548H1.774a1.7,1.7,0,0,1-1.247-.527,1.74,1.74,0,0,1,0-2.494A1.7,1.7,0,0,1,1.774,39.026Z" transform="translate(1004.118 911.213)"/>
                                           </g>
@@ -120,7 +120,7 @@
                                     <g id="Group_31" data-name="Group 31" transform="translate(-1267 -1643)">
                                       <g id="Group_6" data-name="Group 6" transform="translate(1267 1643)">
                                         <g id="Group_30" data-name="Group 30">
-                                          <rect id="Rectangle_13" data-name="Rectangle 13" width="91" height="91" rx="10" fill="#f3950d"/>
+                                          <rect id="Rectangle_13"  width="91" height="91" rx="10" fill="#f3950d"/>
                                         </g>
                                       </g>
                                       <g id="location" transform="translate(1291 1660.078)">
@@ -186,8 +186,8 @@
             <div class="galery__layout">
                 <div class="galery__layout__sekce-2">
                     <div class="galery__layout__sekce-2__kontejner">
-                    <p class="Na">Na</p><br>
-                    <p class="cem">čem</p><br>
+                    <p class="Na">Na</p>
+                    <p class="cem">čem</p>
                     <p class="si">si u nás můžete pochutnat?</p>
                     </div>
                 </div>
@@ -313,19 +313,20 @@
             </div>
             
         </footer>
+        <script>
+            document.querySelector('.header-page__span').addEventListener("click",() => {
+                    let header = document.querySelector('.header-page__span')
+                    let nav = document.querySelector('.nav')
+                    if (!header.classList.contains('active')) {
+                        nav.classList.add("active")
+                        header.classList.add("active")
+                        return
+                    }
+                    header.classList.remove("active")
+                    nav.classList.remove("active")
+                })
+        </script>
 </body>
 
-<script>
-    document.querySelector('.header-page__span').addEventListener("click",() => {
-            let header = document.querySelector('.header-page__span')
-            let nav = document.querySelector('.nav')
-            if (!header.classList.contains('active')) {
-                nav.classList.add("active")
-                header.classList.add("active")
-                return
-            }
-            header.classList.remove("active")
-            nav.classList.remove("active")
-        })
-</script>
+
 </html>

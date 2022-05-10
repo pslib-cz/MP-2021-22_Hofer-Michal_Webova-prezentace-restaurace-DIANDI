@@ -415,6 +415,7 @@ blockquote{
     min-width: 30%;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 .galery__layout__sekce-2 p{
     font-weight: 900;
@@ -510,10 +511,9 @@ footer{
         transition: 0.5s;
         cursor: pointer;
         z-index: 1;
+        display: none;
     }
-    .front-page__fotky{
-        align-items: flex-start;
-    }
+
     .header-page__span.active{
         transform: rotate(360deg);
     }
@@ -522,7 +522,7 @@ footer{
         z-index: 100;
         gap: 5px;
     }
-    .nav.active{
+    .nav{
         transition: ease-in-out;
         transition-duration: 0.3s;
         display: grid;
@@ -534,6 +534,7 @@ footer{
         padding-right: 1em;
         transition: .5s;
         border: solid 2px;
+        font-size: 14px;
     }
     .o-nas__layout__photo2-0{
         display: flex;
@@ -707,6 +708,9 @@ footer{
     .front-page__front-info__article-1__span{
         height: 220px;
     }
+    .front-page__fotky{
+        align-items: flex-start;
+    }
     .front-page__front-info__article-2{
         padding-bottom: 1rem;
     }
@@ -754,13 +758,18 @@ footer{
     }
     .header-page__span{
         margin-right: 1.5rem;
+        display: flex;
     }
     header{
         padding-left: 1rem;
     }
+    .nav{
+        display: none;
+    }
     .nav.active{
         position: absolute;
         transition: 1s;
+        display: flex;
     }
     .nav__item{
         box-shadow: #272932 20px 20px 40px;
