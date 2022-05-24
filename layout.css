@@ -590,7 +590,8 @@ footer{
           max-width: 100px;
       }
       header{
-          padding-left: 2rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
       }
       .front-page__fotky .obr2{
           max-width: 200px;
