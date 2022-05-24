@@ -22,6 +22,9 @@ body{
 img{
     width: 100%;
 }
+h4{
+    font-size: 16px;
+}
 .front-page{
     background-image: url("./Diadni-RDY-NA-WEB/DSC047132.0.webp");
     background-position: center;
@@ -155,6 +158,7 @@ header{
     margin-bottom: 20px;
     margin-top: -65px;
     letter-spacing: 2px;
+    z-index: 5;
 }
 .o-nas__layout__photo, .o-nas__layout__photo2-0{
     vertical-align: middle;
@@ -440,7 +444,7 @@ blockquote{
     margin: auto;
     font-weight: 300;
 }
-.footer-layout h2{
+.footer-layout h3{
     color: #F3950D;
 }
 .footer-layout__div3 svg{
@@ -465,6 +469,7 @@ footer{
     .o-nas__layout__oteviraci-doba h2{
         font-size: 40px;
         margin-bottom: 10px;
+        text-align: center;
     }
     .nav{
         flex-direction: column;
@@ -644,7 +649,7 @@ footer{
       .o-nas__layout__poloha{
           justify-content: center;
       }
-      .footer-layout h2{
+      .footer-layout h3{
           font-size: 16px;
       }
       .footer a{
